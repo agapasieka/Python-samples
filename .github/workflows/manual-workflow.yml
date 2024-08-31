@@ -34,7 +34,8 @@ jobs:
     # Executes a Python script
     - name: Run Python script
       run: |
+        
         cd html-pdf-converter/
-        ./html-pdf-converter.py
+        sudo ./html-pdf-converter.py
 
     
