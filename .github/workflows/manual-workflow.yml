@@ -28,6 +28,7 @@ jobs:
     # Installs the Python dependencies listed in your requirements.txt file using pip
     - name: Install dependencies
       run: |
+        cd cd html-pdf-converter/
         pip install -r requirements.txt
 
     # Executes a Python script
