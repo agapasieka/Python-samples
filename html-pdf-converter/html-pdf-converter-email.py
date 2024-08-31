@@ -6,7 +6,7 @@ converter.convert('https://agapasieka.github.io/resume/', 'agnieszka-pasieka-cv.
 
 # Email settings
 sender_email = '${{ secrets.EMAIL_ADDRESS }}'
-receiver_email = 'agipasieka79"gmail.com' 
+receiver_email = 'agipasieka79@gmail.com' 
 subject = 'Your updated CV in PDF'
 body = 'Please find attached your CV in PDF format.'
 
