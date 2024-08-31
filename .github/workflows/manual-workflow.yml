@@ -15,14 +15,19 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Open PyCharm and run python script
+    # Action to clone your repository into the GitHub runner. This step replaces the git clone command 
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Action to set up a Python environment. Specify the Python version you need (e.g., 3.9 or 3.x for the latest version).
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    
+    - name: Run Python script
       run: |
-        git clone https://github.com/agapasieka/cfg-project-group5.git
-        cd cfg-project-group5/
-        wget https://download-cf.jetbrains.com/python/pycharm-community-2024.2.0.1.tar.gz
-        tar -xzf pycharm-community-2024.2.0.1.tar.gz
-        cd pycharm-community-2024.2.0.1/bin
-        chmod u+x pycharm.sh
-        ./pycharm.sh
+        cd html-pdf-converter/
+        ./html-pdf-converter.py
 
     
