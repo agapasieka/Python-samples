@@ -24,6 +24,5 @@ jobs:
         cd pycharm-community-2024.2.0.1/bin
         chmod u+x pycharm.sh
         ./pycharm.sh
-        python3 ./total_medals_with_user_input.py
 
     
