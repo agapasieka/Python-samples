@@ -1,2 +1,2 @@
 pyhtml2pdf==0.0.7
-pip install pyhtml2pdf yagmail
+yagmail==0.15.293
