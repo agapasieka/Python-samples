@@ -1,6 +1,6 @@
 # This is a basic workflow that is manually triggered
 
-name: Manual workflow
+name: Html to pdf workflow
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -35,6 +35,6 @@ jobs:
     - name: Run Python script
       run: |
         cd html-pdf-converter/
-        python3 html-pdf-converter.py
+        python3 html-pdf-converter-email.py
 
     
