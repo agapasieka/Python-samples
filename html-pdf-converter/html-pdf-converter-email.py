@@ -20,3 +20,5 @@ yag.send(
     contents=body,
     attachments='agnieszka-pasieka-cv.pdf'
 )
+
+print("Email sent successfully!")
