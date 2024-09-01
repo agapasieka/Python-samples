@@ -18,7 +18,7 @@ yag.send(
     to=receiver_email,
     subject=subject,
     contents=body,
-    attachments='agnieszka-pasieka-cv.pdf'
+    attachments='cv.pdf'
 )
 
 print("Email sent successfully!")
