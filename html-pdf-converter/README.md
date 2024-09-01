@@ -16,7 +16,7 @@ python3 html-pdf-converter.py
 This approach leverages 'yagmail' to simplify the process of sending emails with attachments, making it easier to integrate email functionality into GitHub Actions workflow.
 
 <!-- Overview -->
-Explanation
+# Explanation
 
 1. Install dependencies:
 
