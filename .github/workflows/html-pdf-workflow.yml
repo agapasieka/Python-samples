@@ -36,5 +36,7 @@ jobs:
       run: |
         cd html-pdf-converter/
         python3 html-pdf-converter-email.py
-
-    
+      env:
+        EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+        RECEIVER_EMAIL: ${{ secrets.RECEIVER_EMAIL }}
