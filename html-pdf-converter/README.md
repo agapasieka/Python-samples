@@ -20,25 +20,25 @@ Explanation
 
 1. Install dependencies:
 
-* Installs pyhtml2pdf for converting HTML to PDF and yagmail for sending emails with attachments.
+  * Installs pyhtml2pdf for converting HTML to PDF and yagmail for sending emails with attachments.
 
 2. Convert HTML to PDF and Send Email:
 
-* Runs a Python script inline to:
-  * Convert a html resume or any webpage (https://example.com/resume) to a PDF and save it as cv.pdf.
-  * Use yagmail to send an email with cv.pdf as an attachment.
+  * Runs a Python script inline to:
+    * Convert a html resume or any webpage (https://example.com/resume) to a PDF and save it as cv.pdf.
+    * Use yagmail to send an email with cv.pdf as an attachment.
 
 3. Email Settings:
 
-* sender_email: The sender's email address (stored in the EMAIL_ADDRESS secret).
-* sender_password: The sender's password (stored in the EMAIL_PASSWORD secret).
-* receiver_email: The recipient's email address (stored in the RECEIVER_EMAIL).
-* subject: The email subject line.
-* body: The email body content.
+  * sender_email: The sender's email address (stored in the EMAIL_ADDRESS secret).
+  * sender_password: The sender's password (stored in the EMAIL_PASSWORD secret).
+  * receiver_email: The recipient's email address (stored in the RECEIVER_EMAIL).
+  * subject: The email subject line.
+  * body: The email body content.
 
 4. Secrets:
 
-* EMAIL_ADDRESS, EMAIL_PASSWORD and RECEIVER_EMAIL are secrets stored in your GitHub repository. The EMAIL_PASSWORD can be an App Password if you're using Gmail with 2-Step Verification enabled.
+  * EMAIL_ADDRESS, EMAIL_PASSWORD and RECEIVER_EMAIL are secrets stored in your GitHub repository. The EMAIL_PASSWORD can be an App Password if you're using Gmail with 2-Step Verification enabled.
 
 <!-- Task -->
 # Adding the Secrets to GitHub
