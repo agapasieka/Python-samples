@@ -7,12 +7,13 @@ converter.convert('https://agapasieka.github.io/resume/', 'agnieszka-pasieka-cv.
 
 # Email settings
 sender_email = os.getenv('EMAIL_ADDRESS')
-receiver_email = 'agipasieka79@gmail.com' 
+sender_password = os.getenv('EMAIL_PASSWORD')
+receiver_email = os.getenv('RECEIVER_EMAIL') 
 subject = 'Your updated CV in PDF'
 body = 'Please find attached your CV in PDF format.'
 
 # Send the email with the attachment
-yag = yagmail.SMTP(sender_email, os.getenv('EMAIL_PASSWORD'))
+yag = yagmail.SMTP(sender_email, sender_password)
 yag.send(
     to=receiver_email,
     subject=subject,
