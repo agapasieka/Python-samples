@@ -3,7 +3,7 @@ import yagmail
 from pyhtml2pdf import converter
 
 # Convert HTML to PDF
-converter.convert('https://github.io/resume/', 'cv.pdf')
+converter.convert('https://github.io/resume/', 'cv.pdf')     # replace the web page link and pdf file name  
 
 # Email settings
 sender_email = os.getenv('EMAIL_ADDRESS')
