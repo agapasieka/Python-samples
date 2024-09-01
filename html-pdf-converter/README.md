@@ -23,8 +23,8 @@ Explanation
 2. Convert HTML to PDF and Send Email:
 
 * Runs a Python script inline to:
- * Convert a webpage (https://example.com) to a PDF and save it as cv.pdf.
- * Use yagmail to send an email with cv.pdf as an attachment.
+  * Convert a webpage (https://example.com) to a PDF and save it as cv.pdf.
+  * Use yagmail to send an email with cv.pdf as an attachment.
 
 3. Email Settings:
 
