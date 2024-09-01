@@ -12,7 +12,7 @@ Run the script: html-pdf-converter.py
 python3 html-pdf-converter.py
 ```
 
-# Run worklflow and email the file converted to pdf 
+# Run workflow and email the file converted to pdf 
 This approach leverages 'yagmail' to simplify the process of sending emails with attachments, making it easier to integrate email functionality into GitHub Actions workflow.
 
 <!-- Overview -->
