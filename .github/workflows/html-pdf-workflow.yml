@@ -36,6 +36,7 @@ jobs:
       run: |
         cd html-pdf-converter/
         python3 html-pdf-converter-email.py
+    # Passes secrets as environment variables to Python script  
       env:
         EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
         EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
