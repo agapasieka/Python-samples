@@ -1,3 +1,5 @@
+# Generate architecture diagrams with Diagrams
+
 1. Pyhon 3.7 or higher
 2. Install Graphviz https://graphviz.gitlab.io/download/
 ```
