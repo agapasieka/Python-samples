@@ -4,7 +4,7 @@ import yagmail
 from pyhtml2pdf import converter
 
 # Convert HTML to PDF
-converter.convert('https://github.io/resume/', 'cv.pdf')     # Replace the web page link and pdf file name  
+converter.convert('https://agapasieka.github.io/resume/', 'agnieszka-pasieka-cv.pdf')     # Replace the web page link and pdf file name  
 
 # Email settings
 sender_email = os.getenv('EMAIL_ADDRESS')
@@ -19,7 +19,7 @@ yag.send(
     to=receiver_email,
     subject=subject,
     contents=body,
-    attachments='cv.pdf'
+    attachments='agnieszka-pasieka-cv.pdf'
 )
 
 print("Email sent successfully!")
