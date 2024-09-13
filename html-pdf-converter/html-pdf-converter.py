@@ -1,5 +1,5 @@
 from pyhtml2pdf import converter
 
 # Convert HTML to PDF
-converter.convert('https://agapasieka.github.io/resume/', 'agnieszka-pasieka-cv.pdf')
+converter.convert('https://github.io/resume/', 'cv.pdf')
 
