@@ -9,6 +9,6 @@
 ```
    pip3 install diagrams
 ```   
-6. Quick start: https://diagrams.mingrammer.com/docs/getting-started/installation#quick-start
-7. Quides for more details: https://diagrams.mingrammer.com/docs/guides/diagram
-8. All available nodes list: https://diagrams.mingrammer.com/docs/nodes/aws
+5. Quick start: https://diagrams.mingrammer.com/docs/getting-started/installation#quick-start
+6. Quides for more details: https://diagrams.mingrammer.com/docs/guides/diagram
+7. All available nodes list: https://diagrams.mingrammer.com/docs/nodes/aws
