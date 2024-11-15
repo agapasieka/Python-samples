@@ -10,8 +10,13 @@
 * Random Draw: Each card is drawn randomly, ensuring fairness.
 * Winner Determination: The program compares the chosen attribute and declares the winner or a draw.
 
-# How to Play:
+# How to Play
 1. Run the game.
 2. The program deals a random card to the player and the opponent.
 3. Choose whether to compare rank or suit.
 4. The result is displayed based on the comparison.
+
+# Key Additions in version 2
+1. Game Loop: The game now runs in a while True loop to allow multiple rounds.
+2. Exit Option: Players can type exit to leave the game.
+3. Replay Prompt: After each round, the game returns to the start unless the player chooses to exit.
