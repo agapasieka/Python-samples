@@ -17,6 +17,6 @@
 4. The result is displayed based on the comparison.
 
 # Key Additions in version 2
-1. Game Loop: The game now runs in a while True loop to allow multiple rounds.
-2. Exit Option: Players can type exit to leave the game.
-3. Replay Prompt: After each round, the game returns to the start unless the player chooses to exit.
+* Game Loop: The game now runs in a while True loop to allow multiple rounds.
+* Exit Option: Players can type exit to leave the game.
+* Replay Prompt: After each round, the game returns to the start unless the player chooses to exit.
